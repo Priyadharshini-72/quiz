@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="hclass" id="hclass">
+        <h1>Quiz(python/java/c)</h1>
+        <hr>
+        <div class="qclass " id="qclass">
+            <h2>Questions Here</h2>
+        </div>
+        <div class="aclass" id="aclass">
+            <label for="option1" class="option"><input type="radio" id="option1" value="1" name="opt"><span
+                    id="op1"></span></label>
+            <label for="option2" class="option"><input type="radio" id="option2" value="2" name="opt"><span
+                    id="op2"></span></label>
+            <label for="option3" class="option"><input type="radio" id="option3" value="3" name="opt"><span
+                    id="op3"></span></label>
+            <label for="option4" class="option"><input type="radio" id="option4" value="4" name="opt"><span
+                    id="op4"></span></label>
+        </div>
+        <div class="nclass"><button onclick="loadnextquestion()" id="nclass">Next-></button></div>
+
+
+    </div>
+    <div class="result" id="result" style="display: none;">
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
