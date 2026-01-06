@@ -72,7 +72,7 @@ var questions = [{
 {
       "question": "Which of the following is NOT a programming language?",
       "option1": "java",
-      "option2": "Pyton",
+      "option2": "Python",
       "option3": "HTML",
       "option4": "C++",
       "answer": "3"
